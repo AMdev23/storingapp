@@ -21,7 +21,6 @@
                 <input type="text" name="attractie" id="attractie" class="form-input">
             </div>
             <div class="form-group">
-                <label for="type">Type</label>
                 <!-- hier komt een dropdown -->
                 <label for="type">Type attractie</label>
                 <select id="type" name="type" required>
@@ -39,6 +38,10 @@
             <div class="form-group">
                 <label for="melder">Naam melder:</label>
                 <input type="text" name="melder" id="melder" class="form-input">
+            </div>
+            <div>
+                <label for="overig">Extra:</label>
+                <textarea name="overig" class="form-input"></textarea>
             </div>
 
             <input type="submit" value="Verstuur melding">
